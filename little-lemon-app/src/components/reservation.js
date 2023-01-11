@@ -1,4 +1,5 @@
+import BookingPage from "./bookingPage";
 const Reservation = () => {
-  return <div>Reservation page</div>;
+  return <BookingPage />;
 };
 export default Reservation;

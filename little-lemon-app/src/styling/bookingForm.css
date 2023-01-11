@@ -1,0 +1,19 @@
+.formContainer {
+  display: flex;
+  padding-left: 4rem;
+  align-items: center;
+  height: 100vh;
+}
+form {
+  margin-top: 5rem;
+  padding: 2rem 5rem;
+  font-size: 1.5rem;
+  background-color: ghostwhite;
+}
+input,
+select {
+  height: 2rem;
+}
+input[type="submit"] {
+  margin-top: 2rem;
+}
