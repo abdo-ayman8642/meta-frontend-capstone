@@ -3,7 +3,7 @@ body {
   margin: 0;
 }
 main {
-  background-image: url(./assets/pexels-pixabay-326278.jpg);
+  background-image: url(../assets/pexels-pixabay-326278.jpg);
   background-size: auto;
   height: 100vh;
 }
@@ -50,9 +50,12 @@ li {
   gap: 4rem;
 }
 .navLinks li {
+  transition: 0.5s all ease;
+}
+.navLinks li > * {
   font-size: 1.8rem;
   color: bisque;
-  transition: 0.5s all ease;
+  text-decoration: none;
 }
 .navLinks li:hover {
   transform: translateX(2rem);
